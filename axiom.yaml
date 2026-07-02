@@ -1,4 +1,4 @@
-name: christian/axiom-devtest
+name: christiangeorgelucas/axiom-devtest
 version: 0.1.0
 language: python
 description: 'Dev-environment smoke-test package: a single greet node.'
