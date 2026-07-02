@@ -1,0 +1,8 @@
+name: christian/axiom-devtest
+version: 0.1.0
+language: python
+description: 'Dev-environment smoke-test package: a single greet node.'
+nodes:
+    - name: Greet
+      input: GreetRequest
+      output: GreetReply

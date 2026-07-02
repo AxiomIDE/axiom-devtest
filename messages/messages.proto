@@ -1,0 +1,18 @@
+// This file defines the data contracts (messages) for your Axiom package.
+// Every node's --input and --output refers to a message defined here.
+
+syntax = "proto3";
+
+package christian.axiom_devtest;
+
+// A request to greet someone. Carries the name of the person to greet.
+message GreetRequest {
+  // The name of the person to greet, e.g. "Ada".
+  string name = 1;
+}
+
+// The greeting produced for a GreetRequest.
+message GreetReply {
+  // The full greeting message, e.g. "Hello, Ada!".
+  string message = 1;
+}
